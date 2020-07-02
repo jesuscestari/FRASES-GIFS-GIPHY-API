@@ -14,7 +14,7 @@ export default class Giphy extends Component {
 
 
   componentDidUpdate(){  
-    return fetch('https://api.giphy.com/v1/gifs/search?api_key=AbA6AqKZUFSNTcJoOMGeQT3lEyP09610&q='+ this.state.TextInputValueHolder +'&limit=10&offset=0&rating=G&lang=en') 
+    return fetch('https://api.giphy.com/v1/gifs/search?api_key={key}&q='+ this.state.TextInputValueHolder +'&limit=10&offset=0&rating=G&lang=en') 
     .then((response) => response.json())
     .then((respuestaJson ) => {
 
