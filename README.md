@@ -1,5 +1,5 @@
-# React-Native-Consumo-API
-Aplición con React Native que consume varias APIS.
+# React-Native-API-Interaction
+Aplicación con React Native que consume varias APIS.
 ##### Librerias: Native Base y React Navigation
 ### Documentación
 - [Forismatic API](https://forismatic.com/en/api/)
